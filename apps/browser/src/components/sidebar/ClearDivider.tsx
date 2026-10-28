@@ -24,7 +24,7 @@ export const ClearDivider = memo(function ClearDivider({ windowId, profileId, sp
       style={{
         height: CLEAR_DIVIDER_HEIGHT,
         marginTop: spaced ? SPACED_TOP : 0,
-        marginBottom: spaced ? SPACED_TOP : 0,
+        marginBottom: SPACED_TOP,
         flexDirection: "row",
         alignItems: "center",
         paddingLeft: PADDING,
